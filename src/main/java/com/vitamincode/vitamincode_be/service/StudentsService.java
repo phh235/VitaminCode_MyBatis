@@ -1,1 +1,1 @@
-package com.vitamincode.vitamincode_be.service;import com.vitamincode.vitamincode_be.entity.Students;import java.util.List;public interface StudentsService {    List<Students> findAllStudents();}
+package com.vitamincode.vitamincode_be.service;import com.vitamincode.vitamincode_be.entity.Students;import java.util.List;public interface StudentsService {    List<Students> findAllStudents();    Students findStudentById(Integer studentId);}
