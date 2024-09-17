@@ -1,0 +1,1 @@
+package com.vitamincode.vitamincode_be.entity;import lombok.Getter;import lombok.Setter;@Getter@Setterpublic class Classes {    private Integer classId;    private String className;    private String classDescription;}

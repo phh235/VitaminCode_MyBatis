@@ -1,0 +1,17 @@
+# Port
+server:
+  port: 9999
+
+spring:
+  application:
+    name: VitaminCode_BE
+  # Connect database
+  datasource:
+    url: jdbc:mariadb://localhost:3307/vitamincode_mybatis
+    username: root
+    password: root123
+    driver-class-name: org.mariadb.jdbc.Driver
+
+mybatis:
+  config-location: classpath:/static/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/static/mybatis/mapper/*.xml
